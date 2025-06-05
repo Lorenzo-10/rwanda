@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rwandan History - Discover Rwanda</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RWANDA</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="history.html" class="active">History</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-image" src="images/hero-image.jpg" alt="Rwandan landscape">
+        <div class="hero-content">
+            <h1>Discover Rwanda</h1>
+            <p>The Land of a Thousand Hills</p>
+            <div class="cta-buttons">
+                <a href="#explore" class="cta-button">Explore</a>
+                <a href="tourism.html" class="cta-button secondary">Plan Your Visit</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="timeline-section">
+            <div class="timeline-header">
+                <h2>Rwandan History</h2>
+                <p>A journey through time</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-progress"></div>
+                <div class="timeline-items">
+                    <div class="timeline-item active" data-year="1300">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Kingdom of Rwanda</h3>
+                            <p>Formation of the centralized Rwandan monarchy under the Nyiginya dynasty</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="1894">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>European Contact</h3>
+                            <p>First European explorers arrive in Rwanda</p>
+                        </div>
+                    </div>
+                    <!-- More timeline items -->
+                </div>
+            </div>
+            <div class="timeline-nav">
+                <button class="timeline-prev" aria-label="Previous period">←</button>
+                <div class="timeline-year-display">
+                    <span id="currentYear">1300</span>
+                </div>
+                <button class="timeline-next" aria-label="Next period">→</button>
+            </div>
+        </section>
+        
+        <section class="content-section">
+            <h2>The Kingdom of Rwanda</h2>
+            <div class="image-placeholder" style="background-image: url('../images/history/kingdom.jpg');"></div>
+            <p>For centuries, Rwanda was ruled by a Tutsi monarchy with a complex social structure that maintained order through cattle clientship.</p>
+        </section>
+
+        <section class="content-section dark">
+            <h2>Colonial Era</h2>
+            <div class="image-placeholder" style="background-image: url('../images/history/colonial.jpg');"></div>
+            <p>German and later Belgian colonial rule exacerbated ethnic divisions through identity cards and favoritism.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Modern Rwanda</h2>
+            <div class="image-placeholder" style="background-image: url('../images/history/kigali.jpg');"></div>
+            <p>Since the 1994 genocide against the Tutsi, Rwanda has undergone remarkable transformation and reconciliation.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Discover Rwanda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

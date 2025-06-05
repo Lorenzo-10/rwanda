@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Rwanda - Land of a Thousand Hills</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RWANDA</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-image" src="images/hero-image.jpg" alt="Rwandan landscape">
+        <div class="hero-content">
+            <h1>Discover Rwanda</h1>
+            <p>The Land of a Thousand Hills</p>
+            <div class="cta-buttons">
+                <a href="#explore" class="cta-button">Explore</a>
+                <a href="tourism.html" class="cta-button secondary">Plan Your Visit</a>
+            </div>
+        </div>
+    </header>
+
+    <header class="video-hero">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="videos/rwanda-hero.mp4" type="video/mp4">
+                <!-- Fallback image -->
+                <img src="images/hero-fallback.jpg" alt="Rwandan landscape">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Rwanda<br>Reimagined</h1>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="scroller"></div>
+                </div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="map-section">
+            <div class="section-header">
+                <h2>Explore Rwanda's Regions</h2>
+                <p>Click to discover each province's unique character</p>
+            </div>
+            <div class="map-container">
+                <div class="rwanda-map" id="interactiveMap">
+                    <!-- SVG map goes here -->
+                    <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                        <path class="province" data-region="kigali" d="M..." fill="#f5f5f7"></path>
+                        <path class="province" data-region="south" d="M..." fill="#f5f5f7"></path>
+                        <!-- More provinces -->
+                    </svg>
+                </div>
+                <div class="map-info-panel">
+                    <h3 class="region-name">Select a Region</h3>
+                    <p class="region-description">Click on any province to learn about its culture and attractions</p>
+                    <div class="region-highlights"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="full-width-section section-dark">
+            <div class="section-content">
+                <h2 class="section-title">Rich Culture</h2>
+                <p class="section-subtitle">Explore Rwanda's vibrant traditions and arts</p>
+                <a href="culture.html" class="learn-more">Learn more</a>
+                <div class="image-container">
+                    <img src="images/culture/intore-dancers.jpg" alt="Intore dancers" data-src="images/culture/intore-dancers.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="full-width-section section-dark">
+            <div class="section-content">
+                <h2 class="section-title">Rich Culture</h2>
+                <p class="section-subtitle">Explore Rwanda's vibrant traditions and arts</p>
+                <a href="culture.html" class="learn-more">Learn more</a>
+                <div class="image-container">
+                    <img src="images/culture/intore-dancers.jpg" alt="Intore dancers" data-src="images/culture/intore-dancers.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="full-width-section section-dark">
+            <div class="section-content">
+                <h2 class="section-title">Rich Culture</h2>
+                <p class="section-subtitle">Explore Rwanda's vibrant traditions and arts</p>
+                <a href="culture.html" class="learn-more">Learn more</a>
+                <div class="image-container">
+                    <img src="images/culture/intore-dancers.jpg" alt="Intore dancers" data-src="images/culture/intore-dancers.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Discover Rwanda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Discover Rwanda</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RWANDA</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-image" src="images/hero-image.jpg" alt="Rwandan landscape">
+        <div class="hero-content">
+            <h1>Discover Rwanda</h1>
+            <p>The Land of a Thousand Hills</p>
+            <div class="cta-buttons">
+                <a href="#explore" class="cta-button">Explore</a>
+                <a href="tourism.html" class="cta-button secondary">Plan Your Visit</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contact-container">
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+        <section class="contact-info dark">
+            <h2>Our Information</h2>
+            <div class="info-item">
+                <h3>Email</h3>
+                <p>info@discoverrwanda.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Phone</h3>
+                <p>+250 123 456 789</p>
+            </div>
+            <div class="info-item">
+                <h3>Address</h3>
+                <p>KN 4 Ave, Kigali, Rwanda</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Discover Rwanda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
